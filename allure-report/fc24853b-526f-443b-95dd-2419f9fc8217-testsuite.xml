@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name xmlns="">ПроверкаРаботыBDD</name>
+	<test-cases xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<test-case start="63610855327221" stop="63610855327430" status="pending">
+			<name>Генерация обработки 1С</name>
+			<failure>
+				<message>Не реализовано.</message>
+			</failure>
+			<steps>
+				<step start="63610855327415" stop="63610855327428" status="pending">
+					<name>Допустим у меня есть featur файл</name>
+					<title>Допустим у меня есть featur файл</title>
+				</step>
+				<step start="63610855327431" stop="63610855327431" status="skipped">
+					<name>И есть ванесса-бихевер</name>
+					<title>И есть ванесса-бихевер</title>
+				</step>
+				<step start="63610855327431" stop="63610855327431" status="skipped">
+					<name>Когда когда я запуская генерацию epf</name>
+					<title>Когда когда я запуская генерацию epf</title>
+				</step>
+				<step start="63610855327432" stop="63610855327432" status="skipped">
+					<name>Тогда рядом с feature файлом должен появиться каталог с внешней обработкой 1С которая реализует функционал из этого featur файла</name>
+					<title>Тогда рядом с feature файлом должен появиться каталог с внешней обработкой 1С которая реализует функционал из этого featur файла</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value="Генерация обработки 1С"/>
+			</labels>
+		</test-case>
+	</test-cases>
+	<labels xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<label name="feature" value="ПроверкаРаботыBDD"/>
+		<label name="framework" value="vanessa-behavior"/>
+		<label name="language" value="1С"/>
+	</labels>
+</ns2:test-suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name xmlns="">РасчетВозрастаВМесяцах</name>
+	<test-cases xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<test-case start="63610855327624" stop="63610855328126" status="failed">
+			<name>преобразовать возраст в годах в месяца</name>
+			<failure>
+				<message>{ВнешняяОбработка.РасчетВозрастаВМесяцах.Форма.Форма.Форма(86)}: Результат не верен; ИмяФайла=D:\repo\PromRazrabKursTest\features\step_definitions\РасчетВозрастаВМесяцах.epf, ИмяПроцедуры=ПолучитьВозрастВМесяцах, версия VB=ver 1.033</message>
+			</failure>
+			<steps>
+				<step start="63610855327816" stop="63610855327816" status="passed">
+					<name>Допустим у меня есть возраст в годах 12</name>
+					<title>Допустим у меня есть возраст в годах 12</title>
+				</step>
+				<step start="63610855328023" stop="63610855328125" status="failed">
+					<name>Тогда получить возраст в месяцах 144</name>
+					<title>Тогда получить возраст в месяцах 144</title>
+				</step>
+			</steps>
+			<attachments>
+				<attachment title="screenshot" source="a12b51f7-8bad-44bb-9bb6-3d7c009b721e-attachment.png"/>
+			</attachments>
+			<labels>
+				<label name="story" value="преобразовать возраст в годах в месяца"/>
+			</labels>
+		</test-case>
+	</test-cases>
+	<labels xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<label name="feature" value="РасчетВозрастаВМесяцах"/>
+		<label name="framework" value="vanessa-behavior"/>
+		<label name="language" value="1С"/>
+	</labels>
+</ns2:test-suite>
